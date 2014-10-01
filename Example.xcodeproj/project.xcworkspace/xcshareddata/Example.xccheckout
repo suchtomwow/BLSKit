@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B7ED456A-6941-4AC7-8AB3-27C4D890F828</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Example</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0E558F04D9C1DC72B3378AB23979062E3B72A020</key>
+		<string>http://github.com/thomasjcarey/BLSNavigationController</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0E558F04D9C1DC72B3378AB23979062E3B72A020</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://github.com/thomasjcarey/BLSNavigationController</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0E558F04D9C1DC72B3378AB23979062E3B72A020</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0E558F04D9C1DC72B3378AB23979062E3B72A020</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BLSNavigationController</string>
+		</dict>
+	</array>
+</dict>
+</plist>
