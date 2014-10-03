@@ -89,6 +89,8 @@
         } else {
             [self popViewControllerAnimated:YES];
         }
+    } else {
+        [self popViewControllerAnimated:YES];
     }
     
     return YES;
