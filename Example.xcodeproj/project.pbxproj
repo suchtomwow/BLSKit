@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		E918B4AB19A5A17B0019CE67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E918B4AA19A5A17B0019CE67 /* main.m */; };
 		E918B4AE19A5A17B0019CE67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E918B4AD19A5A17B0019CE67 /* AppDelegate.m */; };
-		E918B4B119A5A17B0019CE67 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E918B4B019A5A17B0019CE67 /* WebViewController.m */; };
 		E918B4B419A5A17B0019CE67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E918B4B219A5A17B0019CE67 /* Main.storyboard */; };
 		E918B4B619A5A17B0019CE67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E918B4B519A5A17B0019CE67 /* Images.xcassets */; };
 		E918B4C219A5A17B0019CE67 /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E918B4C119A5A17B0019CE67 /* ExampleTests.m */; };
-		E918B4CD19A5A1E50019CE67 /* BLSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E918B4CC19A5A1E50019CE67 /* BLSNavigationController.m */; };
 		E918B4D019A5A2380019CE67 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E918B4CF19A5A2380019CE67 /* TableViewController.m */; };
+		E926CB2A1C0EC62100FC8EF8 /* BLSNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E926CB291C0EC62100FC8EF8 /* BLSNavigationController.swift */; };
+		E926CB2C1C0EC89900FC8EF8 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E926CB2B1C0EC89900FC8EF8 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,17 +33,16 @@
 		E918B4AA19A5A17B0019CE67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E918B4AC19A5A17B0019CE67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E918B4AD19A5A17B0019CE67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E918B4AF19A5A17B0019CE67 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
-		E918B4B019A5A17B0019CE67 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		E918B4B319A5A17B0019CE67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E918B4B519A5A17B0019CE67 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E918B4BB19A5A17B0019CE67 /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E918B4C019A5A17B0019CE67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E918B4C119A5A17B0019CE67 /* ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTests.m; sourceTree = "<group>"; };
-		E918B4CB19A5A1E50019CE67 /* BLSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLSNavigationController.h; sourceTree = "<group>"; };
-		E918B4CC19A5A1E50019CE67 /* BLSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLSNavigationController.m; sourceTree = "<group>"; };
 		E918B4CE19A5A2380019CE67 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		E918B4CF19A5A2380019CE67 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		E926CB281C0EC62000FC8EF8 /* Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		E926CB291C0EC62100FC8EF8 /* BLSNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BLSNavigationController.swift; path = BLSNavigationController/BLSNavigationController.swift; sourceTree = SOURCE_ROOT; };
+		E926CB2B1C0EC89900FC8EF8 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,13 +88,12 @@
 				E918B4AD19A5A17B0019CE67 /* AppDelegate.m */,
 				E918B4CE19A5A2380019CE67 /* TableViewController.h */,
 				E918B4CF19A5A2380019CE67 /* TableViewController.m */,
-				E918B4AF19A5A17B0019CE67 /* WebViewController.h */,
-				E918B4B019A5A17B0019CE67 /* WebViewController.m */,
-				E918B4CB19A5A1E50019CE67 /* BLSNavigationController.h */,
-				E918B4CC19A5A1E50019CE67 /* BLSNavigationController.m */,
+				E926CB291C0EC62100FC8EF8 /* BLSNavigationController.swift */,
 				E918B4B219A5A17B0019CE67 /* Main.storyboard */,
 				E918B4B519A5A17B0019CE67 /* Images.xcassets */,
 				E918B4A819A5A17B0019CE67 /* Supporting Files */,
+				E926CB281C0EC62000FC8EF8 /* Example-Bridging-Header.h */,
+				E926CB2B1C0EC89900FC8EF8 /* WebViewController.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -170,7 +168,8 @@
 		E918B49D19A5A17B0019CE67 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "BLS Software";
 				TargetAttributes = {
 					E918B4A419A5A17B0019CE67 = {
@@ -225,10 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E918B4B119A5A17B0019CE67 /* WebViewController.m in Sources */,
-				E918B4CD19A5A1E50019CE67 /* BLSNavigationController.m in Sources */,
 				E918B4AE19A5A17B0019CE67 /* AppDelegate.m in Sources */,
 				E918B4D019A5A2380019CE67 /* TableViewController.m in Sources */,
+				E926CB2A1C0EC62100FC8EF8 /* BLSNavigationController.swift in Sources */,
+				E926CB2C1C0EC89900FC8EF8 /* WebViewController.swift in Sources */,
 				E918B4AB19A5A17B0019CE67 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +282,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -344,9 +344,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blssoftware.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Example/Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -355,9 +359,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blssoftware.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Example/Example-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -375,6 +382,7 @@
 				);
 				INFOPLIST_FILE = ExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blssoftware.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
 			};
@@ -390,6 +398,7 @@
 				);
 				INFOPLIST_FILE = ExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blssoftware.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
 			};
@@ -414,6 +423,7 @@
 				E918B4C719A5A17B0019CE67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E918B4C819A5A17B0019CE67 /* Build configuration list for PBXNativeTarget "ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +432,7 @@
 				E918B4CA19A5A17B0019CE67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
