@@ -15,6 +15,7 @@
 		E918B4D019A5A2380019CE67 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E918B4CF19A5A2380019CE67 /* TableViewController.m */; };
 		E926CB2A1C0EC62100FC8EF8 /* BLSNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E926CB291C0EC62100FC8EF8 /* BLSNavigationController.swift */; };
 		E926CB2C1C0EC89900FC8EF8 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E926CB2B1C0EC89900FC8EF8 /* WebViewController.swift */; };
+		E926CB2E1C0ED38900FC8EF8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E926CB2D1C0ED38900FC8EF8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		E926CB281C0EC62000FC8EF8 /* Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Bridging-Header.h"; sourceTree = "<group>"; };
 		E926CB291C0EC62100FC8EF8 /* BLSNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BLSNavigationController.swift; path = BLSNavigationController/BLSNavigationController.swift; sourceTree = SOURCE_ROOT; };
 		E926CB2B1C0EC89900FC8EF8 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		E926CB2D1C0ED38900FC8EF8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				E926CB291C0EC62100FC8EF8 /* BLSNavigationController.swift */,
 				E918B4B219A5A17B0019CE67 /* Main.storyboard */,
 				E918B4B519A5A17B0019CE67 /* Images.xcassets */,
+				E926CB2D1C0ED38900FC8EF8 /* README.md */,
 				E918B4A819A5A17B0019CE67 /* Supporting Files */,
 				E926CB281C0EC62000FC8EF8 /* Example-Bridging-Header.h */,
 				E926CB2B1C0EC89900FC8EF8 /* WebViewController.swift */,
@@ -224,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E926CB2E1C0ED38900FC8EF8 /* README.md in Sources */,
 				E918B4AE19A5A17B0019CE67 /* AppDelegate.m in Sources */,
 				E918B4D019A5A2380019CE67 /* TableViewController.m in Sources */,
 				E926CB2A1C0EC62100FC8EF8 /* BLSNavigationController.swift in Sources */,

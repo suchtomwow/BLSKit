@@ -9,15 +9,14 @@ BLSNavigation controller handles all the hassle of in-app web browsing for you. 
 
 To Use
 ========
-* Drop BLSNavigationController.m and BLSNavigationController.h into your project. 
+* Drop BLSNavigationController.swift into your project.
 * You are assumed to be using iOS 8's WKWebView as your webview. 
-* alloc and init your WKWebView and assign it to self.view in -viewDidLoad(). 
-* Set your WKWebView's navigationDelegate to your view controller's instance of BLSNavigationController
+* In the VC where you want jazz-like navigation, override loadView() and create a WKWebView. Assign the the navigation controller's 'webView' property to the WKWebView istance that you just created.
 * That's it. You're done.
 
 Requirements
 ==============
-* iOS 8
+* > iOS 8
 * WKWebView as your webView
 
 Pull requests are welcome!
